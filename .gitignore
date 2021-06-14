@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# meta info
+.idea/*
+
+# meta info
+cmake-*
