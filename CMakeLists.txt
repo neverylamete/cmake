@@ -3,5 +3,6 @@ project(rational)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_subdirectory(lib_rational)
+add_subdirectory(rational_poly)
 
-add_executable(rational rational_poly/rational_poly.cpp)
