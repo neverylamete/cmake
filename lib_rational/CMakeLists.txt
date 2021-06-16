@@ -1,3 +1,1 @@
-set(CMAKE_CXX_STANDARD 11)
-
-add_library(lib_rational lib_rational.h lib_rational.cpp)
+add_library(lib_rational STATIC lib_rational.h lib_rational.cpp)
