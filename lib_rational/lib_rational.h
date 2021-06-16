@@ -6,14 +6,10 @@
 #define RATIONAL_LIB_RATIONAL_H
 
 
-class rational
+class WorldKnoledge
 {
-    int numerator;
-    int denominator;
-
-
 public:
-    void reduction();
+    int getMeaningofLife();
 };
 
 

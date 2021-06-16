@@ -31,5 +31,10 @@ int main()
     std::vector<double> vec{2, -6, 2, -1};
     double x = 3;
     std::cout << gorner(vec, x) << std::endl;
+
+    WorldKnoledge life;
+
+    std::cout << "life = " << life.getMeaningofLife() << std::endl;
+
     return 0;
 }
